@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Estructura básica de una página web
+</title>
+</head>
+<body>
+<h2>&lt;!DOCTYPE html&gt;</h2>
+<p>Define que el documento esta bajo el estandar de HTML 5</p>
+<p>Parametros: <p>&lt;!DOCTYPE [Elemento de primer nivel] [Disponibilidad] &quot;[+/-]//[Organizacion]//[Tipo] [Nombre]//[Idioma]&quot; &quot;[URL]&quot;&gt;</p>
+<p>
+DOCTYPE: Indicamos que estamos ante la declaración del DOCTYPE
+Elemento de primer nivel: Tenemos que escribir el elemento de nivel superior declarado en el DTD. En nuestro caso es html
+Disponibilidad: Indicamos la disponibilidad del identificador. En nuestro caso tenemos PUBLIC porque se utilizará un identificador público, aunque también existe SYSTEM (cuando se utiliza un identificador de sistema) o URL (cuando el identificador es local o URL).
++/-: Según la organización se utilizará + o -, en el caso de la W3C se utiliza –
+Organización: La organización que ha creado el DTD que vamos a utilizar.
+Tipo: El tipo de documento que estamos incluyendo, o sea, DTD.
+Nombre: El nombre del DTD. En nuestro ejemplo HTML 4.01
+Idioma: El idioma en el que está escrito el DTD, normalmente es EN (inglés)
+URL: La URL del DTD.</p> </p>
+<h2>&lt;html&gt;&lt;/html&gt;</h2>
+<p>Representa la raíz de un documento HTML o XHTML. Todos los demás elementos deben ser descendientes de este elemento.</p>
+<p>Parametros: incluyen los atributos globales</p>
+<h2>&lt;head&gt;&lt;/head&gt;</h2>
+<p>Define la cabecera de una página o sección. Usualmente contiene un logotipo, el título del sitio Web y una tabla de navegación de contenidos.</p>
+<p>Parametros: incluyen los atributos globales</p>
+<h2>&lt;title&gt;&lt;/title&gt;</h2>
+<p>Define el título del documento, el cual se muestra en la barra de título del navegador o en las pestañas de página. Solamente puede contener texto y cualquier otra etiqueta contenida no será interpretada</p>
+<p>Parametros: incluyen los atributos globales</p>
+<h2>&lt;body&gt;&lt;/body&gt;</h2>
+<p>Representa el contenido principal de un documento HTML. Solo hay un elemento <body> en un documento.</p>
+<p>Parametros: incluyen los atributos globales y atributos como TEXT, BGCOLOR, BACKGROUND, LINK, VLINK, ALINK</p>
+<h2>&lt;h1&gt;&lt;/h1&gt;</h2>
+<p>H1 es el elemento HTML utilizado, de manera habitual, para identificar la cabecera más importante en una página web. Los elementos de encabezado implementan seis niveles de encabezado del documento, h1 es el más importante, y h6, el menos importante. Un elemento de encabezado describe brevemente el tema de la sección que presenta.</p>
+<p>Parametros: incluyen los atributos globales y atributo align</p>
+<h2>&lt;p&gt;&lt;/p&gt;</h2>
+<p>Define una parte que debe mostrarse como un párrafo
+</p>
+<p>Parametros: incluyen los atributos globales y atributo align</p>
+<h2>Atributos globales</h2>
+<p>Los atributos globales son atributos comunes a todos los elementos HTML; se pueden usar en todos los elementos.</p>
+<p>Atributos: ACCESSKEY, AUTOCAPITALIZE, AUTOCOMPLETE, CLASS, CONTENTEDITABLE, CONTEXTMENU, DIR, DRAGGABLE, ENTERKEYHINT, HIDDEN, INPUTMODE, ID, IS, ITEMID, ITEMPROP, ITEMREF, ITEMSCOPE, ITEMTYPE, LANG, NONCE, SLOT, SPELLCHECK, STYLE, TABINDEX, TITLE, TRANSLATE, DROPZONE.</p>
+</body>
+</html>
